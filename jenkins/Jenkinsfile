@@ -21,5 +21,15 @@ pipeline {
                 echo 'i am at last!!!!!!!!!!!'
             }
         }
+        stage('Hello mahesh') {
+            steps {
+                echo 'Hello mahesh how are you'
+            }
+        }
+        stage('Hello Sasikant') {
+            steps {
+                echo 'Hello Sasikant, how are you.....'
+            }
+        }
     }
 }
